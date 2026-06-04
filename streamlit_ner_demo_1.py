@@ -298,7 +298,7 @@ with tab3:
             'Detection Time': ['8-12 hours', '30 minutes', '30 minutes'],
             'Root Cause Found': ['Manual archaeology', 'Automated (causal inference)', 'Automated (causal inference)'],
             'GDPR Compliant': ['✓ Yes', '✓ Yes', '✗ No (data to cloud)'],
-            'Who Figures It Out': ['Data eng + SRE team manually correlating', 'InsightFinder's engine', 'InsightFinder's engine']
+            'Who Figures It Out': ['Data eng + SRE team manually correlating', "InsightFinder's engine", "InsightFinder's engine"]
         })
         
         st.dataframe(path_comparison, use_container_width=True)
